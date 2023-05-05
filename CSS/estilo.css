@@ -1,0 +1,118 @@
+nav#menu ul{ /*estilo da lista geral*/
+
+list-style: none; /*resolver estilo da lista*/
+text-transform: uppercase; /*colocar letras em maisusculo*/
+margin: 0 auto; /*itens na lista no centro*/
+position: relative;/*posição na lista relativa*/
+text-align: center; /*alinhamento do texto centralizado*/
+}
+
+nav#menu li{ /*estilo do item*/
+    display: inline-block; /*posicionamento do item*/
+    background-color:rgb(175, 228, 235);/*cor de fundo da lista*/
+    padding: 10px; /*espaçamento entre os itens*/
+    transition: background-color 1s; /*transição ao aproximar o mouse*/
+}
+
+nav#menu {
+    display: block /*bloqueia a movimentação do display*/
+}
+
+nav#menu li:hover{
+    background-color:rgb(42, 96, 117)/* troca a cor de fundo do botão de uma cor para outra*/
+}
+
+nav#menu a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.cabecalho h1{
+    color:rgb(175, 228, 235);
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.cabecalho h2{
+    color:rgb(175, 228, 235);
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.corpo img{
+    padding-top: 15px;
+    width: 400px;
+    height: 250px;
+}
+
+.corpo p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(42, 96, 117);
+}
+
+.corpo{
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(175, 228, 235);
+}
+
+div#interface{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+div#interface2{
+    width: 850px;
+    margin: 0 auto;
+    background-color:rgb(175, 228, 235);
+}
+
+.tabela img{
+    width: 200px;
+    height: 150px;
+}
+
+.tabela{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tabela h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    text-shadow: rgb(42, 96, 117);
+}
+
+.tabela2, table, th, td{
+    border: 1px solid white;
+}
+
+.tabela2, table, th, td{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tabela2{
+    background-color:rgb(175, 228, 235);
+    color: rgb(42, 96, 117);
+    padding: 40px;
+}
+
+ button{
+    background-color: rgb(175, 228, 235);
+    border-radius: 100px;
+ }    
+
+
+
+
